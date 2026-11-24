@@ -100,22 +100,33 @@ class Cat:
               | \_|   /      `^^_   /  /
               }  /}   E  _--     l`^`_}
               ]  /]   /  (       )=TT~`
-            (/|\) (/|\)-(/______>`"""
+            (/|\) (/|\)-(/______>`
+        """
 
     def speak(self, words="Meow"):
         spk(self.fmt_outlook, words)
 
-
+# ( ･ω･｡)つ━☆・*。
 class Dog:
     def __init__(self, name="dog"):
         self.name = name
-        self.act_list = ["speak", "bark", "fetch", "wag tail"]
+        self.act_list = ["speak", "bark", "fetch", "wag_tail"]
         self.fmt_outlook = r"""
-        / \__
-       (    @\___
-       /         O
-      /   (_____/
-     /_____/   U"""
+            ∧     __
+           /  \___/`V'
+          '   o  o   '
+          { -@.  .@- }
+          =* /     * K
+           T(_Y__~  TT
+            = ∪`  =C
+            {       `C++__
+            |         `L==
+             L   \   _   `EE.   -<``L
+             | \_.|  /    `Te_    )  `E
+             }  / }  /  /    LE   /  `E
+             ]  / ]  E_(_     l`^` _J^
+            (///|(///|(/_____>`'''^
+        """
 
     def speak(self, words="Hello"):
         spk(self.fmt_outlook, words)
@@ -126,7 +137,13 @@ class Fish:
         self.name = name
         self.act_list = ["speak", "swim", "glide", "nibble"]
         self.fmt_outlook = r"""
-       ><(((('>"""
+             _(////////L._   _r~~~>
+            / \  __       \-/====
+        _ノ`(@) )F==>      }-===E
+        c_    / ``````````/-\====
+          ^\-------L\\(--^   `T~~~>
+                    `\->
+        """
 
     def speak(self, words="Hello"):
         spk(self.fmt_outlook, words)
@@ -135,9 +152,14 @@ class Fish:
 class Goldfish:
     def __init__(self, name="goldfish"):
         self.name = name
-        self.act_list = ["speak", "swim", "blow bubbles", "flap fins"]
+        self.act_list = ["speak", "swim", "blow_bubbles", "flap_fins"]
         self.fmt_outlook = r"""
-       ><((o)>"""
+           __F///////{__   __====T>
+          (__  \  /,    C /====E>
+        =((@))  )/E'.....>===E{
+        ``\eeee''F\\\---T \====E>
+                   `\L     ``====T>
+        """
 
     def speak(self, words="Hello"):
         spk(self.fmt_outlook, words)
@@ -146,12 +168,10 @@ class Goldfish:
 class Cow:
     def __init__(self, name="cow"):
         self.name = name
-        self.act_list = ["speak", "moo", "graze", "chew cud"]
+        self.act_list = ["speak", "moo", "graze", "chew_cud"]
         self.fmt_outlook = r"""
-       (__)
-       (oo)
- /------\/
-/ |    ||"""
+            
+        """
 
     def speak(self, words="Hello"):
         spk(self.fmt_outlook, words)
